@@ -19,7 +19,7 @@ h2 {
 }
 .barra {
     background-color: #353535;
-
+    padding: 0;
 }
 .logo {
     font-family: 'Playfair Display', serif;
@@ -35,33 +35,13 @@ h2 {
     font-size: 1.2rem;
     font-style: normal;
 }
-.reloj {
-    color: #fff;
-    display: inline-flex;
-}
-.time {
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-}
-.reloj div {
-    padding-left: 6px;
-    margin-top: 10vh;
-    font-size: 50px;
-    font-family: 'Arvo', serif;
-}
 .contenedor {
     display: flex;
-    flex-direction: column;
-}
-@media only screen and (min-width: 768px) {
-    .contenedor {
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 5rem;
 }
 .navegacion a {
-    display: block;
     font-family: 'Arvo', serif;
     font-weight: bold;
     font-style: italic;
@@ -69,12 +49,11 @@ h2 {
     text-decoration: none;
     font-size: 1.3rem;
     padding: .5rem;
-    transition: all .4s ease-in-out;
 }
 .navegacion a:hover{
     border-bottom: 1px solid #fff ;
-    transition: all .4s ease-in-out;
     color: red;
+    transition: all .3s ease-in-out;
 }
 .fondo-img {
     background-image: url(../img/fondo.jpg);
@@ -88,7 +67,7 @@ h2 {
     justify-content: center;
 }
 .texto h1 {
-    margin-top: 25vh;
+    margin-top: 7rem;
     font-size: 4rem;
     color: #fff;
 }
@@ -107,10 +86,9 @@ body {
     .contenedor-cv img {
         padding: 0 1rem;
         max-width: 100%;
-        height: 10rem;
+        height: 100rem;
     }
 }
-
 .color {
     background-color: #eee;
     border-radius: .7rem;
