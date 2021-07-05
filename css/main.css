@@ -47,8 +47,8 @@ h2 {
 .reloj div {
     padding-left: 6px;
     margin-top: 10vh;
-	font-size: 50px;
-	font-family: 'Arvo', serif;
+    font-size: 50px;
+    font-family: 'Arvo', serif;
 }
 .contenedor {
     display: flex;
