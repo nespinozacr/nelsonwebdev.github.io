@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: nespinozacr.github.io
+Token: 3fd94e9c6405e9104d462722041b49d6edcf6e3d836a1a32909e23ef59c37dd9
