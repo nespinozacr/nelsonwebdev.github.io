@@ -1,7 +1,7 @@
 :root {
 	--logoFont: 'Playfair Display', serif;
 	--menuFont: 'Arvo', serif;
-	--paragrapFont: 'Quicksand', sans-serif;
+	--textFont: 'Quicksand', sans-serif;
 	--barColor:   #353535;
 	--bodyColor:  #E1E1E1;
 	--whiteColor: #FFFFFF;
@@ -31,7 +31,7 @@ p {
 	font-size: 2rem;
 	padding: 0 15px;
 	text-align: justify;
-	font-family: var(--paragrapFont);
+	font-family: var(--textFont);
 }
 .menu-container {
 	display: flex;
@@ -39,9 +39,12 @@ p {
 	justify-content: space-between;
 	background: var(--barColor);
 	padding: 1rem 0;
-	display: block;
+	display: inline-block;
 	text-align: center;
-	position: fixed;
+}
+.sticky {
+	position: sticky;
+	top: 0;
 }
 @media screen and (min-width: 768px) {
 	.menu-container {
@@ -141,6 +144,10 @@ p {
 	height: 100%;
 	border-radius: 1rem;
 	margin: 0 0 1rem 0;
+	transition: all .7s ease-in-out;
+}
+.cart-container img:hover {
+	transform: scale(1.2);
 }
 @media screen and (min-width: 768px) {
 	.cart-container {
@@ -166,7 +173,10 @@ p {
 	height: 100%;
 	border-radius: 1rem;
 	margin: 0 0 1rem 0;
-
+	transition: all .7s ease-in-out;
+}
+.certifications-container img:hover {
+	transform: scale(1.1);
 }
 @media screen and (min-width: 768px) {
 	.certifications-container {
