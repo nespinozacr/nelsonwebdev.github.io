@@ -8,9 +8,7 @@ html {
 body {
     margin: 0;
     text-align: center;
-    background: #232526;
-    background: -webkit-linear-gradient(to right, #414345, #232526);
-    background: linear-gradient(to right, #414345, #232526);
+    background-color: #000000;
 
 }
 iframe {
